@@ -504,4 +504,7 @@ svg {
 		top: 50%;
 	}
 
+	.title {
+		font-size: 35px;
+	}
 }
