@@ -87,20 +87,16 @@ svg {
 	margin: 0px 30px;
 	text-align: justify;
 	line-height: 35px;
-	padding: 30px 40px;
+	padding: 50px 70px;
 	background-color: #FFBBC1;
-	min-width: 300px; /* Reduje min-width para mejorar en móviles */
-	max-width: 90%; /* Para que no sea demasiado ancho en pantallas grandes */
-	height: auto; /* Unificamos la altura */
-	max-height: 90vh;
-	overflow-y: auto;
+	min-width: 400px;
+	height: 50%;
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	transform: translate(-50%, -50%); /* Ajusté -52% a -50% para mejor centrado */
+	transform: translate(-52%, -50%);
 	z-index: 0;
-	overflow: auto !important;
-	overflow: visible;
+	overflow: hidden;
 	animation-name: openmsg;
 	animation-duration: 2s;
 	animation-timing-function: linear;
@@ -108,7 +104,6 @@ svg {
 	animation-fill-mode: forwards;
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 	border-radius: 5px;
-	white-space: normal;
 }
 
 .heart > .heart_svg:hover {
@@ -464,7 +459,7 @@ svg {
 	}
 
 	.message {
-		height: 60%;
+		height: 80%;
 		margin: 0 6px;
 		padding: 0px 30px;
 	}
