@@ -87,7 +87,7 @@ svg {
 	margin: 0px 30px;
 	text-align: justify;
 	line-height: 35px;
-	padding: 50px 70px;
+	padding: 30px 40px;
 	background-color: #FFBBC1;
 	min-width: 300px; /* Reduje min-width para mejorar en móviles */
 	max-width: 90%; /* Para que no sea demasiado ancho en pantallas grandes */
@@ -107,6 +107,7 @@ svg {
 	animation-fill-mode: forwards;
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 	border-radius: 5px;
+	white-space: normal;
 }
 
 .heart > .heart_svg:hover {
