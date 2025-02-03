@@ -499,19 +499,9 @@ svg {
     .message {
         width: 90%; /* Aumenta el ancho del contenedor */
       
-        font-size: 14px; /* Ajusta el tamaño de la fuente */
-        line-height: 1.5; /* Mejora la legibilidad */
-        margin: 0 auto; /* Centra el contenedor */
       
     }
 
   
 
-    .heart {
-        top: 50%;
-    }
-
-    .title {
-        font-size: 35px;
-    }
 }
