@@ -494,14 +494,17 @@ svg {
 	}
 }
 
-
 @media screen and (max-width: 600px) {
-    .message {
-        width: 90%; /* Aumenta el ancho del contenedor */
-      
-      
-    }
+	.clickme {
+		left: 58%;
+	  	top: 49%;
+	}
 
-  
+	.heart {
+		top: 50%;
+	}
 
+	.title {
+		font-size: 35px;
+	}
 }
