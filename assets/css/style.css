@@ -92,14 +92,15 @@ svg {
 	min-width: 300px; /* Reduje min-width para mejorar en móviles */
 	max-width: 90%; /* Para que no sea demasiado ancho en pantallas grandes */
 	height: auto; /* Unificamos la altura */
-	max-height: 90%;
+	max-height: 90vh;
 	overflow-y: auto;
 	position: absolute;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%); /* Ajusté -52% a -50% para mejor centrado */
 	z-index: 0;
-	overflow: hidden;
+	overflow: auto !important;
+	overflow: visible;
 	animation-name: openmsg;
 	animation-duration: 2s;
 	animation-timing-function: linear;
