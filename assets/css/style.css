@@ -91,7 +91,9 @@ svg {
 	background-color: #FFBBC1;
 	min-width: 300px; /* Reduje min-width para mejorar en móviles */
 	max-width: 90%; /* Para que no sea demasiado ancho en pantallas grandes */
-	height: 80%; /* Unificamos la altura */
+	height: auto; /* Unificamos la altura */
+	max-height: 90%;
+	overflow-y: auto;
 	position: absolute;
 	left: 50%;
 	top: 50%;
