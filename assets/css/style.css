@@ -89,12 +89,13 @@ svg {
 	line-height: 35px;
 	padding: 50px 70px;
 	background-color: #FFBBC1;
-	min-width: 400px;
-	height: 50%;
+	min-width: 300px; /* Reduje min-width para mejorar en móviles */
+	max-width: 90%; /* Para que no sea demasiado ancho en pantallas grandes */
+	height: 60%; /* Unificamos la altura */
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	transform: translate(-52%, -50%);
+	transform: translate(-50%, -50%); /* Ajusté -52% a -50% para mejor centrado */
 	z-index: 0;
 	overflow: hidden;
 	animation-name: openmsg;
@@ -459,7 +460,7 @@ svg {
 	}
 
 	.message {
-		height: 80%;
+		height: 60%;
 		margin: 0 6px;
 		padding: 0px 30px;
 	}
