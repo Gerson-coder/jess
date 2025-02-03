@@ -498,18 +498,14 @@ svg {
 @media screen and (max-width: 600px) {
     .message {
         width: 90%; /* Aumenta el ancho del contenedor */
-        padding: 20px; /* Reduce el padding para más espacio */
+      
         font-size: 14px; /* Ajusta el tamaño de la fuente */
         line-height: 1.5; /* Mejora la legibilidad */
         margin: 0 auto; /* Centra el contenedor */
-        height: auto; /* Ajusta la altura automáticamente */
-        min-width: unset; /* Elimina el ancho mínimo fijo */
+      
     }
 
-    .clickme {
-        left: 58%;
-        top: 49%;
-    }
+  
 
     .heart {
         top: 50%;
