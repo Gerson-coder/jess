@@ -105,6 +105,15 @@ svg {
 	animation-fill-mode: forwards;
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 	border-radius: 5px;
+	overflow-y: scroll; /* Habilita el scroll vertical */
+    scrollbar-width: none; /* Oculta la barra de scroll en Firefox */
+    -ms-overflow-style: none; /* Oculta la barra de scroll en IE/Edge */
+}
+
+
+/* Oculta la barra de scroll en navegadores WebKit (Chrome, Safari) */
+.message::-webkit-scrollbar {
+    display: none;
 }
 
 .heart > .heart_svg:hover {
@@ -518,4 +527,13 @@ svg {
     .title {
         font-size: 35px;
     }
+}
+
+
+/*# sourceMappingURL=style.css.map */
+.image-container img {
+    max-width: 100%; /* La imagen no superará el ancho del contenedor */
+    height: auto; /* La altura se ajusta proporcionalmente */
+    display: block; /* Evita espacios no deseados debajo de la imagen */
+    margin: 0 auto 10px; /* Centra la imagen y añade margen inferior */
 }
