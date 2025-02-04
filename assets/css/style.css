@@ -495,16 +495,26 @@ svg {
 }
 
 @media screen and (max-width: 600px) {
-	.clickme {
-		left: 58%;
-	  	top: 49%;
-	}
+    .message {
+        width: 90%; /* Aumenta el ancho del contenedor */
+       
+        font-size: 14px; /* Ajusta el tamaño de la fuente */
+        line-height: 1.5; /* Mejora la legibilidad */
+        margin: 0 auto; /* Centra el contenedor */
+        height: auto; /* Ajusta la altura automáticamente */
+        min-width: unset; /* Elimina el ancho mínimo fijo */
+    }
 
-	.heart {
-		top: 50%;
-	}
+    .clickme {
+        left: 58%;
+        top: 49%;
+    }
 
-	.title {
-		font-size: 35px;
-	}
+    .heart {
+        top: 50%;
+    }
+
+    .title {
+        font-size: 35px;
+    }
 }
