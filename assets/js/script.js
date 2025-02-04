@@ -106,7 +106,7 @@ $(el).on('click', function () {
   }
 });
 // Music
-const love = new Audio("assets/music/interstellar.mp3");
+const love = new Audio("assets/music/Interstellar.mp3");
 
 
 function playAudio() {
