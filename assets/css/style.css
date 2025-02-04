@@ -530,10 +530,3 @@ svg {
 }
 
 
-/*# sourceMappingURL=style.css.map */
-.image-container img {
-    max-width: 100%; /* La imagen no superará el ancho del contenedor */
-    height: auto; /* La altura se ajusta proporcionalmente */
-    display: block; /* Evita espacios no deseados debajo de la imagen */
-    margin: 0 auto 10px; /* Centra la imagen y añade margen inferior */
-}
