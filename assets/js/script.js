@@ -106,7 +106,7 @@ $(el).on('click', function () {
   }
 });
 // Music
-const love = new Audio("assets/music/bg_music.mp3");
+const love = new Audio("assets/music/yukomi.mp3");
 
 
 function playAudio() {
